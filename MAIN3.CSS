@@ -1,0 +1,24 @@
+
+
+
+.container{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-auto-rows:100px;
+    grid-gap: 3px;
+  
+}
+.vertical{
+  height: 20%;
+  width: 10%;
+}
+/*images properties
+<img src="" class="classname">
+image resize on css styling
+.classname{
+  borderradius=x%;
+  height=Xpx;
+  width=xpx;
+}
+
